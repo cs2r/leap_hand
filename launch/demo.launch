@@ -1,0 +1,4 @@
+<launch>
+    <node name="leap_motion_publisher" pkg="leap_hand" type="Sample.py" output="screen"/>
+    <node name="hand_controller" pkg="leap_hand" type="hand_ctrl.py"  output="screen"/>
+</launch>
